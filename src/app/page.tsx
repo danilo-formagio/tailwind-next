@@ -113,7 +113,7 @@ export default function Home() {
 
             <FileInput.Root className="flex items-start gap-5">
               <FileInput.Trigger />
-              <FileInput.Control />
+              <FileInput.Control multiple />
             </FileInput.Root>
           </div>
 
