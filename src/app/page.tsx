@@ -111,8 +111,9 @@ export default function Home() {
               <span className="mt-0.5 block text-sm font-normal text-zinc-500">Write a short introduction.</span>
             </label>
 
-            <FileInput.Root className="flex items-start gap-5">
+            <FileInput.Root>
               <FileInput.Trigger />
+              <FileInput.FileList />
               <FileInput.Control multiple />
             </FileInput.Root>
           </div>
