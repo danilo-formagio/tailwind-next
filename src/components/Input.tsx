@@ -1,5 +1,4 @@
 import { ComponentProps } from 'react';
-import { Search } from 'lucide-react';
 
 export interface InputPrefixProps extends ComponentProps<'div'> {}
 
