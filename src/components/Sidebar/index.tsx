@@ -4,7 +4,7 @@ import { BarChart, CheckSquare, Flag, Home, SquareStack, Users } from 'lucide-re
 import { NavItem } from './NavItem';
 import { UsedSpaceWidget } from './UsedSpaceWidget';
 import { Profile } from './Profile';
-import * as Input from '../Input';
+import * as Input from '@/components/Form/Input';
 
 export function Sidebar() {
   return (
