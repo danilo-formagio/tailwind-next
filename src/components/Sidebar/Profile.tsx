@@ -7,12 +7,12 @@ export function Profile() {
       <img src="https://github.com/danilo-formagio.png" className="h-10 w-10 rounded-full" alt="" />
 
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">Danilo Formagio</span>
-        <span className="truncate text-sm text-zinc-500">danilo_formagio@outlook.com</span>
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">Danilo Formagio</span>
+        <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">danilo_formagio@outlook.com</span>
       </div>
 
       <Button type="button" variant="ghost">
-        <LogOut className="h-5 w-5 text-zinc-500" />
+        <LogOut className="h-5 w-5" />
       </Button>
     </div>
   );
